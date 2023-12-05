@@ -44,6 +44,10 @@ li {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
 #main {
     max-width: 800px;
     padding: 30px;
@@ -55,7 +59,7 @@ header {
     max-width: 800px;
     justify-content: space-between;
     align-items: center;
-    margin:0px auto 60px auto;
+    margin:0px auto 120px auto;
 }
 
 header .logo-img img{
@@ -91,4 +95,12 @@ nav a::before {
 nav a:hover::before {
     bottom: 0;
     width: 100%;
+}
+
+.content {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
 }
