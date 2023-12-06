@@ -49,14 +49,13 @@ img {
 }
 
 #main {
-    max-width: 800px;
+    max-width: 575px;
     padding: 30px;
     margin: auto;
 }
 
 header {
     display: flex;
-    max-width: 800px;
     justify-content: space-between;
     align-items: center;
     margin:0px auto 120px auto;
@@ -99,8 +98,58 @@ nav a:hover::before {
 
 .content {
     display: flex;
-    max-width: 600px;
     flex-direction: column;
     margin: auto;
     text-align: center;
+}
+
+.text-files {
+    margin: 25px auto 100px auto;
+}
+
+.text-files h1 {
+    width: 365px;
+    font-size: 1.8em;
+    margin: auto;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+
+.text-files p {
+    font-size: .9em;
+    font-weight: 700;
+    color: var(--Desaturated-Blue);
+    width: 322px;
+    margin: 25px auto;
+}
+
+.text-files input {
+    width: 100%;
+    display: block;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--Light-Gray);
+    margin-bottom: 8px;
+}
+
+.text-files input::placeholder {
+    color: var(--Light-Grayish-Blue);
+}
+
+.submit {
+    width: 100%;
+    padding: 9px;
+    background: var(--Bright-Blue);
+    color: #fff;
+    font-family: var(--font-Raleway);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    transition: background 1s ease;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: rgb(24, 83, 247);
 }
